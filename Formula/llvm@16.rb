@@ -2,8 +2,8 @@ class LlvmAT16 < Formula
   desc "Next-gen compiler infrastructure"
   homepage "https://llvm.org/"
   # NOTE: `ccls` will need rebuilding on every version bump.
-  url "https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.0-rc2/llvm-project-16.0.0rc2.src.tar.xz"
-  sha256 "2ae53e4d9cdc46e660359a5311f276bd4cb39c310345de951c580a09b4f34861"
+  url "https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.0-rc3/llvm-project-16.0.0rc3.src.tar.xz"
+  sha256 "8fa9792a1a04f78d023b87c5e5bd25010d5f73a5c0ae1830e897d85821ee9325"
   # The LLVM Project is under the Apache License v2.0 with LLVM Exceptions
   license "Apache-2.0" => { with: "LLVM-exception" }
   head "https://github.com/llvm/llvm-project.git", branch: "main"
