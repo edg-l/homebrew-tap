@@ -1,6 +1,5 @@
 class LlvmAT19 < Formula
     desc "Next-gen compiler infrastructure"
-
     homepage "https://llvm.org/"
     url "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.0-rc4/llvm-project-19.1.0-rc4.src.tar.xz"
     sha256 "224eb00d8281377802545442f24ae085c493d5caffaaac610056fa6835b9c4b4"
